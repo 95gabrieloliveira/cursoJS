@@ -20,6 +20,8 @@ console.log(umaString.slice(-3)); //Nesse caso ele pega a string toda e volta 3 
 console.log(umaString.slice(-3, -1)); // Volta igual o caso anterior mas começa a contagem uma casa antes
 console.log(umaString.split('t')); // retirar uma letra
 console.log(umaString.split('t', 2)); // retirar apenas 2 vezes
+console.log(umaString.toUpperCase()); // Deixar tudo em maiusculo
+console.log(umaString.toLowerCase()); // Deixar tudo em minusculo
 
 
 
