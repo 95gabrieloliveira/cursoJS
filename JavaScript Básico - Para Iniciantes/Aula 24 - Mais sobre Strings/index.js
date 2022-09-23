@@ -8,8 +8,8 @@ console.log(umaString + 'em um lindo dia.');
 console.log(`${umaString} em um lindo dia`);
 
 // Saber onde começa o texto
-console.log(umaString.indexOf('texto'));
-console.log(umaString.lastIndexOf('o')); // COmeça de trás pra frente.
+console.log(umaString.indexOf('texto')); // primeiro indice
+console.log(umaString.lastIndexOf('o')); // ultimo indice.
 console.log(umaString.search(/t/)); // Busca uma expressão regular
 console.log(umaString.replace('Um', 'Outra')); //Substitui uma expressão.
 console.log(umaString.replace(/t/g, '#')); //usar o g Substitui todas as expressões.
@@ -18,8 +18,8 @@ console.log(umaString.slice(4, 9)); // para pegar uma parte especifica do texto 
 
 console.log(umaString.slice(-3)); //Nesse caso ele pega a string toda e volta 3 casas do final
 console.log(umaString.slice(-3, -1)); // Volta igual o caso anterior mas começa a contagem uma casa antes
-console.log(umaString.split('t')); // retirar uma letra
-console.log(umaString.split('t', 2)); // retirar apenas 2 vezes
+console.log(umaString.split('t')); // separar uma letra
+console.log(umaString.split('t', 2)); // separar apenas 2 vezes
 console.log(umaString.toUpperCase()); // Deixar tudo em maiusculo
 console.log(umaString.toLowerCase()); // Deixar tudo em minusculo
 
